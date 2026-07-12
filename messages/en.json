@@ -1,0 +1,163 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "lessons": "Lessons",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookLesson": "Book a Lesson"
+  },
+  "Metadata": {
+    "home": {
+      "title": "Learn Japanese with Lisa | Fun, Personalized Online Lessons",
+      "description": "Fun, practical, and personalized Japanese lessons for learners of every level, worldwide. Book your first lesson with Lisa today."
+    },
+    "about": {
+      "title": "About Lisa | Learn Japanese with Lisa",
+      "description": "Meet Lisa — her teaching philosophy, background, qualifications, and approach to helping you actually speak Japanese."
+    },
+    "lessons": {
+      "title": "Lessons & Courses | Learn Japanese with Lisa",
+      "description": "Beginner, conversation, JLPT prep, business Japanese, and travel Japanese — one-on-one lessons over Zoom or Google Meet."
+    },
+    "pricing": {
+      "title": "Pricing | Learn Japanese with Lisa",
+      "description": "Pricing details are being finalized. Get in touch with Lisa directly for current rates and availability."
+    },
+    "faq": {
+      "title": "FAQ | Learn Japanese with Lisa",
+      "description": "Answers to common questions about lesson length, payment, cancellations, materials, and getting started as a complete beginner."
+    },
+    "contact": {
+      "title": "Contact | Learn Japanese with Lisa",
+      "description": "Ready to start? Send Lisa a message to book your first lesson or ask a question before you sign up."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Learn Japanese with Lisa",
+      "description": "How contact and lesson-booking information submitted on this site is collected and used."
+    },
+    "terms": {
+      "title": "Terms of Service | Learn Japanese with Lisa",
+      "description": "The terms that apply to lessons and use of this website."
+    }
+  },
+  "About": {
+    "eyebrow": "About Lisa",
+    "title": "Hi, I'm Lisa",
+    "intro": "I've spent my career on one question: what actually gets someone speaking Japanese, not just studying it? These lessons are the answer I've landed on.",
+    "philosophy": {
+      "title": "Teaching philosophy",
+      "body": "Fluency is built in conversation, not in isolation from it. Every lesson uses grammar and vocabulary in real sentences from the very first session, so you're always practicing the thing you actually came here to do: talk."
+    },
+    "methodTitle": "How lessons work",
+    "qualificationsTitle": "Qualifications",
+    "hobbiesTitle": "Outside the lesson room"
+  },
+  "ContactForm": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Select your country",
+    "messageLabel": "Message",
+    "messagePlaceholder": "What would you like to work on? Any goals, deadlines, or questions before booking?",
+    "submit": "Send Message",
+    "submitting": "Sending…",
+    "submitError": "Something went wrong sending your message. Please try again in a moment.",
+    "successTitle": "Message sent!",
+    "successDescription": "Thanks for reaching out — Lisa will reply by email to schedule your first lesson.",
+    "sendAnother": "Send another message",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "nameTooLong": "Name is too long.",
+      "emailInvalid": "Please enter a valid email address.",
+      "countryRequired": "Please select your country.",
+      "messageTooShort": "Please write at least 10 characters.",
+      "messageTooLong": "Message is too long (max 2000 characters)."
+    }
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Let's start your Japanese",
+    "description": "Tell Lisa a little about your goals and she'll follow up to schedule your first lesson."
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "title": "Pricing is coming soon",
+    "description": "Lisa is finalizing course pricing. In the meantime, get in touch directly and she'll confirm current rates and availability for your goals.",
+    "cta": "Contact Lisa"
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Still have a question after reading these? Just ask — the contact page goes straight to Lisa.",
+    "cta": "Ask a question"
+  },
+  "Lessons": {
+    "eyebrow": "Lessons & Courses",
+    "title": "Find your course",
+    "description": "Every course is one-on-one and delivered live over Zoom or Google Meet — mix and match as your goals change.",
+    "formatLabel": "Available format"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Online Japanese lessons, 1-on-1",
+      "title": "Learn Japanese with Lisa",
+      "subtitle": "Fun, practical, and personalized Japanese lessons",
+      "description": "Whether you're saying your first \"konnichiwa\" or prepping for the JLPT, Lisa builds every lesson around you — your goals, your pace, your schedule.",
+      "ctaPrimary": "Book a Lesson",
+      "ctaSecondary": "Learn More",
+      "bubbleJa": "こんにちは！",
+      "bubbleEn": "Hello! Let's start.",
+      "liveBadge": "Live over Zoom / Google Meet"
+    },
+    "features": {
+      "eyebrow": "Why learn with Lisa",
+      "title": "One teacher, every path into Japanese",
+      "description": "Pick a focus today — mix in another whenever your goals change."
+    },
+    "stats": {
+      "eyebrow": "Trusted by learners worldwide",
+      "students": "Happy Students",
+      "lessons": "Lessons Taught",
+      "countries": "Countries Reached"
+    },
+    "testimonials": {
+      "eyebrow": "From the lesson room",
+      "title": "What students say after a few lessons"
+    },
+    "faqTeaser": {
+      "eyebrow": "Before you book",
+      "title": "Quick answers",
+      "cta": "See all FAQs"
+    },
+    "finalCta": {
+      "title": "Ready to actually speak Japanese?",
+      "description": "Your first lesson is a conversation, not a test — let's find out where to start.",
+      "cta": "Book a Lesson"
+    }
+  },
+  "Common": {
+    "comingSoon": "This page is still being written — please check back soon.",
+    "bookLesson": "Book a Lesson",
+    "learnMore": "Learn More",
+    "backHome": "Back to home",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Legal": {
+    "placeholderNotice": "This is placeholder text. Replace it with a real Privacy Policy / Terms of Service — ideally reviewed by a legal professional — before this site goes live."
+  },
+  "Footer": {
+    "tagline": "Fun, practical, and personalized Japanese lessons — wherever you are in the world.",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "followUs": "Follow along"
+  }
+}

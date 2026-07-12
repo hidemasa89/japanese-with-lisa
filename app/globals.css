@@ -1,0 +1,188 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/*
+ * Design system for "Learn Japanese with Lisa"
+ * -----------------------------------------------------------------------
+ * Named for the subject the site teaches, rather than generic UI-gray names:
+ *
+ *   sakura  #EC4899  桜  cherry-blossom pink — the brief's primary accent
+ *   beni    #DB2777  紅  a deeper traditional pink — used wherever pink sits
+ *                        *behind text* (buttons, links), so contrast always
+ *                        clears WCAG AA. `sakura` itself stays for borders,
+ *                        rings, icons, and other non-text decoration.
+ *   sumi    #2B2430  墨  ink — body text; a warm charcoal, never flat black
+ *   washi   #FFFCFB  和紙 paper — the warm-white base background
+ *   kinari  #F3E3C8  生成り undyed cream — a secondary warm neutral for
+ *                        variety in badges (e.g. JLPT level tags)
+ *
+ * All values below are OKLCH (perceptually-uniform, Tailwind v4's default
+ * color model) and were converted from the exact brief hex codes rather
+ * than eyeballed, so the rendered colors stay true to spec.
+ */
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 1.25rem;
+
+  --background: oklch(99.31% 0.0035 39.49); /* washi */
+  --foreground: oklch(27.33% 0.0239 311.02); /* sumi */
+
+  --card: oklch(100% 0 0);
+  --card-foreground: oklch(27.33% 0.0239 311.02);
+
+  --popover: oklch(100% 0 0);
+  --popover-foreground: oklch(27.33% 0.0239 311.02);
+
+  --primary: oklch(59.16% 0.218 0.58); /* beni — solid buttons, white text */
+  --primary-foreground: oklch(100% 0 0);
+
+  --secondary: oklch(97.11% 0.0135 347.94); /* washi-mist */
+  --secondary-foreground: oklch(59.16% 0.218 0.58);
+
+  --muted: oklch(97.11% 0.0135 347.94);
+  --muted-foreground: oklch(51.38% 0.0205 311.4); /* sumi-soft */
+
+  --accent: oklch(97.11% 0.0135 347.94);
+  --accent-foreground: oklch(27.33% 0.0239 311.02);
+
+  --destructive: oklch(57.7% 0.2151 27.33);
+  --destructive-foreground: oklch(100% 0 0);
+
+  --border: oklch(91% 0.012 340);
+  --input: oklch(91% 0.012 340);
+  --ring: oklch(65.59% 0.2118 354.31); /* sakura — focus rings */
+
+  /* Named brand palette, exposed as first-class utilities (bg-sakura, etc.) */
+  --color-sakura: oklch(65.59% 0.2118 354.31); /* #EC4899 exactly */
+  --color-beni: oklch(59.16% 0.218 0.58); /* #DB2777 */
+  --color-sumi: oklch(27.33% 0.0239 311.02); /* #2B2430 */
+  --color-washi: oklch(99.31% 0.0035 39.49); /* #FFFCFB */
+  --color-washi-mist: oklch(97.11% 0.0135 347.94); /* #FDF2F7 */
+  --color-kinari: oklch(92.16% 0.0397 80.89); /* #F3E3C8 */
+}
+
+.dark {
+  --background: oklch(18.69% 0.019 304.87); /* ink900 */
+  --foreground: oklch(96% 0.008 310);
+
+  --card: oklch(23.46% 0.0242 307.31); /* ink800 */
+  --card-foreground: oklch(96% 0.008 310);
+
+  --popover: oklch(23.46% 0.0242 307.31);
+  --popover-foreground: oklch(96% 0.008 310);
+
+  --primary: oklch(72.53% 0.1752 349.76); /* lighter pink — pops on dark */
+  --primary-foreground: oklch(18.69% 0.019 304.87);
+
+  --secondary: oklch(27% 0.02 307);
+  --secondary-foreground: oklch(96% 0.008 310);
+
+  --muted: oklch(27% 0.02 307);
+  --muted-foreground: oklch(70% 0.018 310);
+
+  --accent: oklch(27% 0.02 307);
+  --accent-foreground: oklch(96% 0.008 310);
+
+  --destructive: oklch(70% 0.19 25);
+  --destructive-foreground: oklch(18.69% 0.019 304.87);
+
+  --border: oklch(32% 0.02 307);
+  --input: oklch(32% 0.02 307);
+  --ring: oklch(72.53% 0.1752 349.76);
+
+  --color-sakura: oklch(72.53% 0.1752 349.76);
+  --color-beni: oklch(80% 0.13 349);
+  --color-sumi: oklch(96% 0.008 310);
+  --color-washi: oklch(18.69% 0.019 304.87);
+  --color-washi-mist: oklch(23.46% 0.0242 307.31);
+  --color-kinari: oklch(80% 0.05 80);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-figtree);
+  --font-display: var(--font-fredoka);
+  --font-jp: var(--font-mplus-rounded);
+
+  --radius-sm: calc(var(--radius) - 0.75rem);
+  --radius-md: calc(var(--radius) - 0.5rem);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 0.5rem);
+  --radius-2xl: calc(var(--radius) + 1rem);
+
+  --animate-accordion-down: accordion-down 0.25s ease-out;
+  --animate-accordion-up: accordion-up 0.25s ease-out;
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family:
+      var(--font-sans),
+      var(--font-jp),
+      ui-sans-serif,
+      system-ui,
+      sans-serif;
+  }
+
+  /* Respect the OS-level reduced-motion preference site-wide. Individual
+     Motion components still check `useReducedMotion()` for JS-driven
+     animations; this covers plain CSS transitions/animations. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}

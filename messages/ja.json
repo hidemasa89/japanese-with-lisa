@@ -1,0 +1,163 @@
+{
+  "Nav": {
+    "home": "ホーム",
+    "about": "About",
+    "lessons": "レッスン",
+    "pricing": "料金",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ",
+    "bookLesson": "レッスンを予約する"
+  },
+  "Metadata": {
+    "home": {
+      "title": "Lisaと学ぶ日本語 | 楽しく、パーソナライズされたオンラインレッスン",
+      "description": "世界中の日本語学習者のための、楽しく実践的でパーソナライズされた日本語レッスン。今すぐLisaのレッスンを予約しましょう。"
+    },
+    "about": {
+      "title": "Lisaについて | Lisaと学ぶ日本語",
+      "description": "教育理念、経歴、資格、そして「実際に話せるようになる」ための指導方針をご紹介します。"
+    },
+    "lessons": {
+      "title": "レッスン・コース一覧 | Lisaと学ぶ日本語",
+      "description": "初心者、会話、JLPT対策、ビジネス日本語、旅行日本語まで。ZoomまたはGoogle Meetによるマンツーマンレッスン。"
+    },
+    "pricing": {
+      "title": "料金 | Lisaと学ぶ日本語",
+      "description": "料金プランは現在準備中です。最新の料金・空き状況はお問い合わせください。"
+    },
+    "faq": {
+      "title": "よくある質問 | Lisaと学ぶ日本語",
+      "description": "レッスン時間、支払い方法、キャンセル、教材、初心者の方向けの情報など、よくある質問にお答えします。"
+    },
+    "contact": {
+      "title": "お問い合わせ | Lisaと学ぶ日本語",
+      "description": "レッスンのご予約やご質問は、お気軽にLisaまでメッセージをお送りください。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー | Lisaと学ぶ日本語",
+      "description": "お問い合わせ・レッスン予約時に入力された情報の取り扱いについて。"
+    },
+    "terms": {
+      "title": "利用規約 | Lisaと学ぶ日本語",
+      "description": "レッスンおよび本サイトのご利用にあたっての規約です。"
+    }
+  },
+  "About": {
+    "eyebrow": "Lisaについて",
+    "title": "はじめまして、Lisaです",
+    "intro": "「どうすれば本当に日本語を話せるようになるのか」——ずっとこの問いに向き合ってきました。このレッスンは、その答えのかたちです。",
+    "philosophy": {
+      "title": "教育理念",
+      "body": "流暢さは、会話の中でこそ身につくものです。初回のレッスンから、文法や単語を実際の文章の中で使う練習をします。だからこそ、本当にやりたかったこと——「話すこと」を、毎回のレッスンで実践できます。"
+    },
+    "methodTitle": "レッスンの進め方",
+    "qualificationsTitle": "資格",
+    "hobbiesTitle": "レッスン以外の時間"
+  },
+  "ContactForm": {
+    "nameLabel": "お名前",
+    "namePlaceholder": "お名前を入力してください",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "countryLabel": "国",
+    "countryPlaceholder": "お住まいの国を選択してください",
+    "messageLabel": "メッセージ",
+    "messagePlaceholder": "学びたいこと、目標、気になる点など、なんでもお書きください。",
+    "submit": "送信する",
+    "submitting": "送信中…",
+    "submitError": "送信中にエラーが発生しました。しばらくしてから再度お試しください。",
+    "successTitle": "送信が完了しました！",
+    "successDescription": "お問い合わせありがとうございます。Lisaよりメールにて初回レッスンの日程についてご連絡します。",
+    "sendAnother": "別のメッセージを送る",
+    "errors": {
+      "nameRequired": "お名前を入力してください。",
+      "nameTooLong": "お名前が長すぎます。",
+      "emailInvalid": "有効なメールアドレスを入力してください。",
+      "countryRequired": "お住まいの国を選択してください。",
+      "messageTooShort": "10文字以上でご記入ください。",
+      "messageTooLong": "メッセージが長すぎます（2000文字以内）。"
+    }
+  },
+  "Contact": {
+    "eyebrow": "お問い合わせ",
+    "title": "日本語学習をはじめましょう",
+    "description": "目標を少し教えてください。Lisaから初回レッスンの日程についてご連絡します。"
+  },
+  "Pricing": {
+    "eyebrow": "料金",
+    "title": "料金プランは準備中です",
+    "description": "現在、コースの料金を確定中です。お問い合わせいただければ、あなたの目標に合わせた現在の料金・空き状況をご案内します。",
+    "cta": "お問い合わせする"
+  },
+  "Faq": {
+    "eyebrow": "よくある質問",
+    "title": "よくある質問",
+    "description": "ここに載っていないご質問があれば、お気軽にお問い合わせください。Lisaに直接届きます。",
+    "cta": "質問する"
+  },
+  "Lessons": {
+    "eyebrow": "レッスン・コース",
+    "title": "コースを選ぶ",
+    "description": "すべてのコースはマンツーマンで、ZoomまたはGoogle Meetによるライブレッスンです。目標の変化に合わせて組み合わせも自由です。",
+    "formatLabel": "レッスン形式"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "オンライン・マンツーマン日本語レッスン",
+      "title": "Lisaと学ぶ日本語",
+      "subtitle": "楽しく、実践的で、あなただけの日本語レッスン",
+      "description": "はじめての「こんにちは」も、JLPT対策も。目標・ペース・スケジュール、すべてあなたに合わせてレッスンを組み立てます。",
+      "ctaPrimary": "レッスンを予約する",
+      "ctaSecondary": "もっと詳しく",
+      "bubbleJa": "こんにちは！",
+      "bubbleEn": "Hello! Let's start.",
+      "liveBadge": "Zoom / Google Meetでライブ開催"
+    },
+    "features": {
+      "eyebrow": "Lisaと学ぶ理由",
+      "title": "一人の先生と、日本語へのすべての道",
+      "description": "まずは1つのコースから。目標が変わったら、いつでも組み合わせられます。"
+    },
+    "stats": {
+      "eyebrow": "世界中の学習者に選ばれています",
+      "students": "満足した生徒数",
+      "lessons": "実施レッスン数",
+      "countries": "生徒のいる国と地域"
+    },
+    "testimonials": {
+      "eyebrow": "レッスンの声",
+      "title": "受講後の生徒さんの声"
+    },
+    "faqTeaser": {
+      "eyebrow": "ご予約の前に",
+      "title": "よくある質問",
+      "cta": "すべてのFAQを見る"
+    },
+    "finalCta": {
+      "title": "本当に話せる日本語へ、始めませんか？",
+      "description": "最初のレッスンはテストではなく会話です。まずはどこから始めるか一緒に見つけましょう。",
+      "cta": "レッスンを予約する"
+    }
+  },
+  "Common": {
+    "comingSoon": "このページは現在作成中です。もうしばらくお待ちください。",
+    "bookLesson": "レッスンを予約する",
+    "learnMore": "もっと詳しく",
+    "backHome": "ホームに戻る",
+    "switchToLight": "ライトモードに切り替え",
+    "switchToDark": "ダークモードに切り替え",
+    "language": "言語",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  },
+  "Legal": {
+    "placeholderNotice": "これはプレースホルダーです。公開前に、実際のプライバシーポリシー・利用規約（できれば法律の専門家によるレビュー済みのもの）に差し替えてください。"
+  },
+  "Footer": {
+    "tagline": "世界中どこにいても学べる、楽しく実践的でパーソナライズされた日本語レッスン。",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "followUs": "フォローする"
+  }
+}
